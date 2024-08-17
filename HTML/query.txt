@@ -1,0 +1,1 @@
+SELECT students.*, branch.hod as branch_hod FROM students INNER JOIN branchs ON students.branch = branchs.branch;
